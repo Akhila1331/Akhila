@@ -1,0 +1,41 @@
+<html>
+<head>
+<title>Internshipform</title>
+</head>
+<body>
+<form method="post" action="submit.html">
+<h1 align=center>InternShipForm</h1>
+<p>Name</p>
+<input type="text" name="name" placeholder="enter your full name"/>
+<p>Email</p>
+<input type="email" name="email" placeholder="enter your email"/>
+<p>create password</p>
+<input type="password" name="password"/>
+<p>Enter your age</p>
+<input type="number" name="age"/>
+<p>Gender</p>
+<input type="radio" name="male" value="male"/>male<br>
+<input type="radio" name="female" value="female"/>female
+<p>About yourself</p>
+<textarea rows="10" cols="100"></textarea>
+<p>Programming Languages</p>
+<input type="checkbox" name="language" value="c"/>C<br>
+<input type="checkbox" name="language" value="c++"/>C++<br>
+<input type="checkbox" name="language" value="java"/>Java<br>
+<input type="checkbox" name="language" value="sql"/>Sql<br>
+<input type="checkbox" name="language" value="html"/>Html<br>
+<p>How Many months you want to participate in our internship?</p>
+<select>
+<option>1month</option>
+<option>2months</option>
+<option>3months</option>
+<option>4months</option>
+<option>5months</option>
+<option value="6months" selected>6months</option>
+</select>
+<p>Upload your Resume</P>
+<input type="file" name="uploadfile" accept="document/*"/><br><br>
+<a href="submit.html"><input type="submit" name="submit" value="submit"/></a>
+</form>
+</body>
+</html>
